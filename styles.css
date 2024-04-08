@@ -1,32 +1,88 @@
 body{
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
+    text-align: center;
 }
 
 header{
     background-color: #333;
     color:#fff;
-    padding:20px;
+    padding:30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 90px;
+}
+#subtitulo {
+    margin-top: 150px;
 }
 
 .logo{
     order: -1px;
+    margin-right: auto;
 }
-.logo img{
+.logo img {
     width: 200px;
     height: auto;
-    
 }
+
+h1{
+    margin:  auto;
+    text-align: center;  
+    flex-grow: 1; 
+}
+
+.lista{
+    list-style: none ;
+    padding: 0;
+}
+
+.lista li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.lista li a{
+    color: white;
+    text-decoration: none;
+}
+
 .tabla {
+    margin-top: 40px;
     border:2px solid black;
     border-collapse: collapse;
     width: 100%;
 }
 
+.tabla tr:nth-child(odd){
+    background-color: #D8D7D6;
+}
+
+#subtitulo{
+    font-weight: bold;
+    font-size: 30px ;
+    text-align: left;
+}
+
+.tabla th {
+    background-color: #333;
+    color: #f0f8ff;
+    text-align: left;
+}
 .tabla th, .tabla td {
     border: 1px solid black;
     padding: 8px;
+}
+
+.imagenarg, .imagenbrasil {
+    width: 100px;
+    height: auto;
+}
+
+#copyright{
+    margin-top: 80px;
 }
