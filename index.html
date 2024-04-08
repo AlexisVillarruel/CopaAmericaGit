@@ -5,14 +5,14 @@
     </head>
     <body><!-- cuerpo -->
         <header>
-            <h1>Copa America 2024</h1>
             <div class="logo">
                 <img src="image/logo_copa.png">
             </div>
+            <h1>Copa America 2024</h1>
             <nav>
-                <ul>
+                <ul class="lista">
                     <li>Inicio</li>
-                    <li>Calendario</li>
+                    <li><a href="calendario.html">Calendario</a></li> <!-- agregar target="_blank" para abrir pagina aparte-->
                     <li>Estadios</li>
                     <li>Noticias</li>
                 </ul>   
@@ -20,7 +20,7 @@
             
         </header>
         <main>
-            <h2>Equipos Participantes</h2>
+            <h2 id="subtitulo">Equipos Participantes</h2>
             <table class="tabla">
                 <tr>
                     <th>País</th>
@@ -41,7 +41,7 @@
             </table>
         </main>
         <footer><!-- footer -->
-            <p>©2024 Copa America. Todos los derechos reservados. UESAN</p>
+            <p id="copyright">©2024 Copa America. Todos los derechos reservados. UESAN</p>
     
         </footer>
     </body>
