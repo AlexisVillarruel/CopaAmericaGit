@@ -23,6 +23,7 @@ nav ul{
     color: white;
 }
 .barra{
+    
     display: flex;
     justify-content: center;
 }
@@ -31,8 +32,13 @@ nav ul{
     margin-right: 90px  ;
     margin-top: 60px;
     caret-color: transparent;
+    cursor: pointer;
 }
-
+.barra li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
 #fase1{
     text-align: left;
     font-size: 14px;
