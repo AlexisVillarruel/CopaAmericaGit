@@ -1,0 +1,103 @@
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+#header2{
+    background-color: #013777;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0px;
+    justify-content: space-between;
+    margin: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+nav ul{
+    list-style: none;
+    color: white;
+}
+.barra{
+    display: flex;
+    justify-content: center;
+}
+.barra li{
+    display: inline-block;
+    margin-right: 90px  ;
+    margin-top: 60px;
+    caret-color: transparent;
+}
+
+#fase1{
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    border : 2px solid #DADCE0;
+    margin: 110px auto 0px auto;/* arriba derecha abajo izquierda */
+    border-bottom: none;
+    padding: 1%;
+    background-color: #F8F9FA;
+}
+
+.contenedor-tablas-izquierda,
+.contenedor-tablas-derecha {
+    
+    display: flex ;
+    justify-content: center ; 
+    width: calc(50%-4px);
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-top: 1px solid;
+    border-color: #DADCE0;
+    caret-color: transparent;
+}
+
+.tabla1, .tabla3, .tabla2, .tabla4 {
+    border-top: none;
+    width: 45%; /* Ancho ajustado para dar espacio entre las tablas */
+    padding: 4%;
+    margin: 0;
+    padding-right: 0;
+    
+}
+.tabla1 td :nth-of-type(2),
+.tabla2 td :nth-of-type(2),
+.tabla3 td :nth-of-type(2),
+.tabla4 td :nth-of-type(2) {
+    text-align: left; /* Alinea el texto a la izquierda */
+    padding-left: 1px; /* Añade un pequeño espacio a la izquierda del texto */
+    
+}
+.fecha{
+    text-align: center;
+    margin:0;
+    padding: 0;
+}
+.hora{
+    text-align: center;
+    margin:0;
+    padding: 0;
+}
+.tabla3{
+    border-right:  2px solid #DADCE0; 
+}
+.tabla1{
+    border-right: 2px solid #DADCE0;
+    
+}
+
+.contenedor-tablas-izquierda img,
+.contenedor-tablas-derecha img {
+    width: 30px;
+    height: auto;
+    float: left;
+    margin-right: 1px;
+    text-align: left;
+}
